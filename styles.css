@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+/* Marco principal */
+.marco {
+  width: 500px;
+  background-color: white;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.custom-size {
+  font-size: 25px;
+}
+.izquierda {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nombre-usuario {
+  font-size: 15px;
+}
+
+.derecha .boton-menu {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Contenido (Imagen de la publicación) */
+.contenido {
+  width: 100%;
+  height: auto;
+}
+
+.imagen-publicacion {
+  width: 100%;
+  height: 380px;
+}
+
+/* Pie de página */
+.pie {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.acciones {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.boton-me-gusta,
+.boton-comentar,
+.boton-compartir {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.boton-guardar {
+  background: none;
+  cursor: pointer;
+  border: none;
+  margin-left: 340px;
+}
+
+.texto-descripcion {
+  font-size: 14px;
+  color: #262626;
+  margin-top: 5px;
+}
+
+.texto-descripcion {
+  padding-top: 10px;
+}
